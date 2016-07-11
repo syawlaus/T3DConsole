@@ -1,0 +1,20 @@
+﻿Build started 2016-07-02 0:58:46.
+     1>Project "E:\Programming\Computer Graphics\3D 游戏编程大师技巧\第 3 章\T3DConsole\T3DConsole.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\programming\computer graphics\3d 游戏编程大师技巧\dx9\sdk (c++)\include\dmerror.h(12): warning C4005: 'FACILITY_DIRECTMUSIC' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(162) : see previous definition of 'FACILITY_DIRECTMUSIC'
+         e:\programming\computer graphics\3d 游戏编程大师技巧\dx9\sdk (c++)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>e:\programming\computer graphics\3d 游戏编程大师技巧\第 3 章\t3dconsole\main.cpp(223): warning C4101: 'index' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Programming\Computer Graphics\3D 游戏编程大师技巧\第 3 章\T3DConsole\Debug\T3DConsole.exe" /INCREMENTAL /NOLOGO ddraw.lib dsound.lib dinput.lib dinput8.lib winmm.lib d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Programming\Computer Graphics\3D 游戏编程大师技巧\第 3 章\T3DConsole\Debug\T3DConsole.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Programming\Computer Graphics\3D 游戏编程大师技巧\第 3 章\T3DConsole\Debug\T3DConsole.lib" /MACHINE:X86 Debug\main.obj
+         Debug\t3dlib1.obj
+         Debug\t3dlib2.obj
+         Debug\t3dlib3.obj
+         T3DConsole.vcxproj -> E:\Programming\Computer Graphics\3D 游戏编程大师技巧\第 3 章\T3DConsole\Debug\T3DConsole.exe
+     1>Done Building Project "E:\Programming\Computer Graphics\3D 游戏编程大师技巧\第 3 章\T3DConsole\T3DConsole.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
